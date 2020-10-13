@@ -7,6 +7,6 @@ mysql:
     - MYSQL_ALLOW_EMPTY_PASSWORD=true
     - MYSQL_USER=petclinic
     - MYSQL_PASSWORD=petclinic123
-    - MYSQL_DATABASE=petclinicfeat123
+    - MYSQL_DATABASE=petmaster
   volumes:
     - "./conf.d:/etc/mysql/conf.d:rwo"
