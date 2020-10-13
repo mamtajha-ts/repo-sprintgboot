@@ -6,7 +6,7 @@ mysql:
     - MYSQL_ROOT_PASSWORD=
     - MYSQL_ALLOW_EMPTY_PASSWORD=true
     - MYSQL_USER=petclinic
-    - MYSQL_PASSWORD=petclinic123
-    - MYSQL_DATABASE=petclinicfeat123
+    - MYSQL_PASSWORD=petclinic1234
+    - MYSQL_DATABASE=petclinicfeat1234
   volumes:
     - "./conf.d:/etc/mysql/conf.d:ro"
